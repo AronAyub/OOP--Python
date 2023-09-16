@@ -8,4 +8,8 @@
     - isolating different parts of the programs for troubleshooting purposes.
 
 - A class  is a blueprint for creating objects of a particular type.
-- Methods regular functions that are part of a class.
+- Methods are regular functions that are part of a class.
+- Attributes - are variables that hod data that are part of the class
+- objects - are specific instance of a class
+- Inheritance - means by whicha  class can inherit cpabilities from another
+- Composition - building complex object out of the other objects 
