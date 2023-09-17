@@ -1,0 +1,41 @@
+[
+    {
+        "Name": "Ayub",
+        "Salary": 34.0,
+        "Department": "Technical",
+        "Office Location": "Nairobi",
+        "Boss Name": "Nobody",
+        "Working Days": [
+            "m",
+            "t",
+            "w",
+            "t",
+            "f",
+            "s"
+        ]
+    },
+    {
+        "Name": "Mark",
+        "Salary": 6.0,
+        "Department": "Networks, ",
+        "Office Location": "Mombasa",
+        "Boss Name": "Senior",
+        "Working Days": [
+            "t",
+            "w",
+            "t",
+            "f"
+        ]
+    },
+    {
+        "Name": "Theiro",
+        "Salary": 59.0,
+        "Department": "Commercial",
+        "Office Location": "Kisumu",
+        "Boss Name": "Heiro",
+        "Working Days": [
+            "m",
+            "f"
+        ]
+    }
+]
