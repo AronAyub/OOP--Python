@@ -60,4 +60,7 @@ print("Newspaper info ")
 N1 =NewsPaper(price= 2000, author = "Aron Ayub", private='False', owner= "Chero", country= "Ireland")
 N1.get_info_newspaper()
 
-
+print(B1.publication)
+print(B1.pages)
+print(B1.price)
+print(B1.author)
