@@ -7,6 +7,7 @@ class Staff:
         self.department = ""
         self.office_location = ""
         self.boss_name = ""
+        self.year_experice = 0.0
         self.working_days = []
 
     def request_info(self):
@@ -15,7 +16,7 @@ class Staff:
         self.department = input("Enter department: ")
         self.office_location = input("Enter office location: ")
         self.boss_name = input("Enter boss name: ")
-        
+        self.year_experice = input("Enter the years of experience: ")
         working_days_input = input("Enter working days (comma-separated): ")
         self.working_days = [day.strip() for day in working_days_input.split(",")]
 
