@@ -2,7 +2,7 @@
 #python oob
 #Using Abstract base classes to enforce class constraints.
 from abc import ABC, abstractmethod
-class Graphics:
+class Graphics(ABC):
     def __init__(self):
         super().__init__()
 
@@ -22,7 +22,6 @@ class Square(Graphics):
         self.side = side
     def CalcArea(self):
          return self.side * self.side
-    
     
 
 # g = Graphics()
