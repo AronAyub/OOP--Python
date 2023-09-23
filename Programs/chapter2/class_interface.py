@@ -7,8 +7,7 @@ class JSONify(ABC):
      @abstractmethod
      def toJSON(self):
           pass
-
-
+     
 class Graphics(ABC):
     def __init__(self):
         super().__init__()
@@ -37,12 +36,19 @@ class Square(Graphics):
     def CalcArea(self):
          return self.side * self.side
     
+    def toJSON(self):
+         json_data = f"{{\"Side\" :{str(self.CalcArea())}}}"
+         with open("interface.json",'w') as json_file:
+              json.dump(json_data, json_file, indent=4)
+         return json_data
+                   
 
 # g = Graphics()
 
 c = Circle(7)
 print(c.CalcArea)
-# s = Square(3)
-# print(s.CalcArea)
 
-print(c.toJSON())
+s = Square(3)
+print(s.CalcArea())
+
+print(c.toJSON(), s.toJSON())
