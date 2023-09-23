@@ -2,6 +2,7 @@
 #interface is a type of programming feature that is supported using classes 
 #a class makes a promise to provide a capability
 from abc import ABC, abstractmethod
+import json
 class JSONify(ABC):
      @abstractmethod
      def toJSON(self):
@@ -24,7 +25,11 @@ class Circle(Graphics, JSONify):
          return 3.14 * (self.radius ** 2)
     
     def toJSON(self):
-         return f"{{\"Circle\" : {str(self.CalcArea())} }}"
+       json_data =  f"{{\"Circle\" : {str(self.CalcArea())} }}"
+       # Save the Json data to a json file 
+       with open("interface.json", "w") as json_file:
+           json.dump(json_data, json_file, indent=4)
+       return json_data
 
 class Square(Graphics):
     def __init__(self, side):
