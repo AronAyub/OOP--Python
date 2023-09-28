@@ -9,7 +9,6 @@ class Graphics(ABC):
     @abstractmethod
     def CalcArea(self):
             pass
-
 class Circle(Graphics):
     def __init__(self, radius) :
         self.radius = radius
@@ -22,12 +21,11 @@ class Square(Graphics):
         self.side = side
     def CalcArea(self):
          return self.side * self.side
-    
 
 # g = Graphics()
 
 c = Circle(7)
-print(c.CalcArea)
+print(c.CalcArea) 
 s = Square(3)
 print(s.CalcArea())
  

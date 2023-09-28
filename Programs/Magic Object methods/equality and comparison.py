@@ -31,6 +31,9 @@ class Book:
             raise ValueError("Cannot compare book in non-book")
         return self.price < value.price
 
+    def __str__(self) -> str:
+        return F"The Title is {self.title}, and author is {self.author}, and the price is {self.price}"
+
 
  
 
@@ -53,6 +56,6 @@ print(b3 < b1)
 books = [b1, b2, b3]
 books.sort()
 print([book.title for book in books])
-
+print(str(b1))
 #Explore
 #(https://docs.python.org/3/reference/datamodel.html)

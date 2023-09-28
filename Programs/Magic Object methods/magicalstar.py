@@ -13,7 +13,7 @@ class Book:
 
 #use __repr__method to return an obj representation
     def __repr__(self):
-        return f"Title= {self.title},author={self.author},price={self.price}"
+        return f"Title= {self.title},author={self.austhor},price={self.price}"
         
 
 b1 = Book("The Kilimu", "Aron", 500)
