@@ -16,7 +16,7 @@ class Book:
     def __post__init__(self):
         self.description = f"{self.title} by {self.author}, {self.pages}, costs {self.price}"
     
-
+    def __post__in
     
 
 #create some instance 
