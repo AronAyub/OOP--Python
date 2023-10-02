@@ -13,10 +13,12 @@ class Book:
     #__post__init function lets us customize additional properties
     #after object has been initialized through built in -in __init
     
-    def __post__init__(self):
-        self.description = f"{self.title} by {self.author}, {self.pages}, costs {self.price}"
+    def __post_init__(self):
+        self.description =  "{self.title}, by {self.author} of {self.pages} pages and cost {self.price}"
+        return self.description
+
     
-    def __post__in
+ 
     
 
 #create some instance 
