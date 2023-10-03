@@ -32,7 +32,7 @@ def save_employee():
     working_days_entry.delete(0, tk.END)
 
 def save_to_json():
-    with open("Employee_data.json", "w") as json_file:
+    with open("Zachary.json", "w") as json_file:
         json.dump(employee_data, json_file, indent=4)
     print("Employee data saved to 'Employee.json'.")
 

@@ -1,23 +1,10 @@
 [
     {
-        "name": "Alan",
-        "salary": 5600.0,
-        "department": "Networks ",
-        "office_location": "1.344,34.556",
-        "boss_name": "Richard",
-        "working_days": [
-            "m",
-            "t",
-            "w",
-            "t"
-        ]
-    },
-    {
-        "name": "Job Juma",
-        "salary": 231.0,
+        "name": "Zachary Bwirea",
+        "salary": 45.0,
         "department": "Technical",
-        "office_location": "1.344,34.6789",
-        "boss_name": "Nobodyknows",
+        "office_location": "1.23454, 34.45678",
+        "boss_name": "Bwire",
         "working_days": [
             "m",
             "t",
